@@ -38,7 +38,7 @@ implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version:
 
 test {
     useTestNG() {
-        suites 'src\\test\\resources\\testNG.xml'
+        suites 'src/test/resources/testNG.xml'
     }
 
     testLogging {
